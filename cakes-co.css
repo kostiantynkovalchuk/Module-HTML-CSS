@@ -12,6 +12,12 @@ header {
   background-color: #f8f8f8;
 }
 
+.logo {
+  font-family: "Arial, sans-serif";
+  font-style: italic;
+  font-weight: bold;
+}
+
 .menu-toggle {
   display: none;
 }
