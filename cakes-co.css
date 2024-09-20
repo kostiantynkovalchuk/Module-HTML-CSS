@@ -1,0 +1,39 @@
+/* Mobile First CSS */
+body {
+  font-family: "Arial, sans-serif";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f8f8;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.welcome {
+  padding: 1em;
+}
+
+.featured-cakes img {
+  width: 100%;
+  height: auto;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f8f8;
+}
