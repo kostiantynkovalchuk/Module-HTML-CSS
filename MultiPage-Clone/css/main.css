@@ -1,0 +1,81 @@
+/* ----------General styles---------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Quicksand";
+}
+
+:root {
+  --dark-beige: #e6dacd;
+  --light-beige: #f4ece6;
+  --royal-blue: #0150fd;
+  --black: #000;
+  --white: #fff;
+  --shadow-white: #f1f1f1;
+}
+
+h1 {
+  font-family: "Poppins";
+}
+h2 {
+  font-family: "Poppins";
+}
+h3 {
+  font-family: "Poppins";
+}
+
+/* ----------Header styles---------------*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0px 1px 10px #f1f1f1;
+}
+
+.name {
+  display: flex;
+}
+
+.blue-dot {
+  width: 15px;
+  height: 15px;
+  background-color: var(--royal-blue);
+  position: relative;
+  top: 10px;
+  left: 8px;
+}
+
+.myName {
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+.nav-links {
+  text-transform: uppercase;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--black);
+}
+
+nav a:nth-child(1) {
+  color: var(--royal-blue);
+}
+
+nav a:hover {
+  color: var(--royal-blue);
+}
+
+/* ----------Main styles---------------*/
