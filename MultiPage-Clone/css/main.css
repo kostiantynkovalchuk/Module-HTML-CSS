@@ -14,7 +14,7 @@
   --royal-blue: #0150fd;
   --black: #000;
   --white: #fff;
-  --shadow-white: #f1f1f1;
+  --shadow-white: #bbb8b8;
 }
 
 h1 {
@@ -92,8 +92,9 @@ main {
 }
 
 .layer-grid {
-  width: 50vw;
+  width: 55vw;
   display: flex;
+  height: 70vh;
 }
 
 .left-side-column {
@@ -101,17 +102,121 @@ main {
   display: flex;
   flex-direction: column;
   background-color: var(--light-beige);
+  align-items: center;
+  box-shadow: -5px 3px 15px var(--shadow-white);
+}
+
+.upper-container {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.upper-container h3 {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
+
+.upper-container p {
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 .round-photo {
+  border-radius: 100%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.round-photo img {
+  width: 120%;
+  height: 120%;
+  position: relative;
+}
+
+.blueLine {
+  width: 20%;
+  border-bottom: 3px solid var(--royal-blue);
+}
+
+.social-media-icons {
+  background-color: var(--white);
+  height: 10%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+}
+
+.imgContainer {
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-icons img {
+  width: 100%;
 }
 
 .right-side-column {
   width: 50%;
   display: flex;
   flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.right-side-column h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+
+.firstP {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.button1 {
+  border: 2px solid var(--royal-blue);
+  background-color: var(--royal-blue);
+  color: var(--white);
+}
+
+.button1:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: 0.5s;
+}
+
+.button2:hover {
+  background-color: var(--royal-blue);
+  color: var(--white);
+  transition: 0.5s;
+  border: 2px solid var(--royal-blue);
+}
+
+.button2 {
+  background-color: var(--white);
+}
+
+.secondP {
+  line-height: 1.5rem;
+  text-align: justify;
+  padding-right: 3rem;
 }
