@@ -1,0 +1,46 @@
+/*-------Main styles-------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-beige);
+  padding-top: 200px;
+  justify-content: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  gap: 3rem;
+  height: fit-content;
+}
+
+.name {
+  display: flex;
+}
+
+.blue-dotResume {
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: -7px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtitles {
+  font-size: 1.5rem;
+}
+
+.button1 {
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+}
