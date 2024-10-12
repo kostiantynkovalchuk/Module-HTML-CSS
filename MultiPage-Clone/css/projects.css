@@ -1,0 +1,47 @@
+/*-------Main styles-------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-beige);
+  padding-top: 200px;
+  justify-content: center;
+  height: fit-content;
+  padding-bottom: 4rem;
+}
+
+nav a:nth-child(3) {
+  color: var(--royal-blue);
+}
+
+nav a:nth-child(1) {
+  color: var(--black);
+}
+
+nav a:hover {
+  color: var(--royal-blue);
+}
+
+.name {
+  display: flex;
+}
+
+.blue-dotResume {
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: -7px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 70px;
+  grid-gap: 2rem;
+}
+
+.info-card {
+  width: 404px;
+  height: 316px;
+  box-shadow: -5px 3px 15px var(--shadow-white);
+}

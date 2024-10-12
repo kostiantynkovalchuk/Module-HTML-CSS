@@ -1,0 +1,92 @@
+/*-------Main styles-------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-beige);
+  padding-top: 200px;
+  justify-content: center;
+  height: fit-content;
+  padding-bottom: 4rem;
+}
+
+nav a:nth-child(4) {
+  color: var(--royal-blue);
+}
+
+nav a:nth-child(1) {
+  color: var(--black);
+}
+
+nav a:hover {
+  color: var(--royal-blue);
+}
+
+.name {
+  display: flex;
+}
+
+.button1 {
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-weight: 600;
+  width: fit-content;
+  margin-top: 40px;
+}
+
+.blue-dotResume {
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: -7px;
+}
+
+.info-card {
+  padding-top: 70px;
+  width: 700px;
+  height: fit-content;
+  box-shadow: -5px 3px 15px var(--shadow-white);
+  background-color: var(--white);
+  margin-top: 3rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.form-input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid var(--black);
+}
+
+textarea {
+  resize: none;
+}
+
+input:hover {
+  border-bottom: 2px solid var(--royal-blue);
+}
+
+input:focus {
+  border: none;
+  border-bottom: 2px solid var(--royal-blue);
+  outline: none;
+}
+
+textarea:focus {
+  border: none;
+  border-bottom: 2px solid var(--royal-blue);
+  outline: none;
+}

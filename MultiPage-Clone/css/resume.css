@@ -10,6 +10,19 @@ main {
   padding-right: 350px;
   gap: 3rem;
   height: fit-content;
+  padding-bottom: 4rem;
+}
+
+nav a:nth-child(2) {
+  color: var(--royal-blue);
+}
+
+nav a:nth-child(1) {
+  color: var(--black);
+}
+
+nav a:hover {
+  color: var(--royal-blue);
 }
 
 .name {
@@ -33,6 +46,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .subtitles {
@@ -43,4 +57,75 @@ main {
   padding: 10px 40px;
   border-radius: 50px;
   font-weight: 600;
+}
+
+.info-card {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 4rem;
+  width: 700px;
+  height: max-content;
+  box-shadow: -5px 3px 15px var(--shadow-white);
+}
+
+.card-leftColumn {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description {
+  width: 300px;
+}
+
+.first-card {
+  margin-bottom: 2rem;
+}
+
+.years {
+  color: var(--royal-blue);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+.jobPosition-universityName {
+  font-size: 1.2rem;
+}
+
+.card-leftColumn p {
+  margin-bottom: 1.5rem;
+}
+
+.ed-subtitle {
+  margin-bottom: 3rem;
+}
+
+.skill-card {
+  box-shadow: -5px 3px 15px var(--shadow-white);
+  padding: 6rem 4rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.blue-dotSkills {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 18px;
+  left: -23px;
+  background-color: var(--royal-blue);
+}
+
+.skills-subcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 23px;
+}
+
+.skillCard-headline {
+  margin-bottom: 2rem;
 }
