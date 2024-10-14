@@ -263,3 +263,115 @@ footer {
   width: 15px;
   height: 15px;
 }
+
+/* ----------Media Queries---------------*/
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .myName {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  main {
+    padding-top: 150px;
+    background: linear-gradient(90deg, var(--dark-beige) 30%, var(--white) 70%);
+  }
+
+  .layer-grid {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+
+  .left-side-column,
+  .right-side-column {
+    width: 100%;
+  }
+
+  .right-side-column h1 {
+    font-size: 3rem;
+  }
+
+  .right-side-column h3 {
+    font-size: 1.2rem;
+  }
+
+  .secondP {
+    padding-right: 1rem;
+  }
+
+  .round-photo {
+    height: 150px;
+    width: 150px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+  }
+
+  .contacts-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .myName {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    font-size: 0.8rem;
+  }
+
+  .layer-grid {
+    width: 95vw;
+  }
+
+  .right-side-column h1 {
+    font-size: 2.5rem;
+  }
+
+  .firstP {
+    font-size: 1.2rem;
+  }
+
+  .secondP {
+    font-size: 0.9rem;
+  }
+
+  .buttons button {
+    padding: 8px 20px;
+  }
+
+  .round-photo {
+    height: 120px;
+    width: 120px;
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contacts-section {
+    gap: 10px;
+  }
+}
