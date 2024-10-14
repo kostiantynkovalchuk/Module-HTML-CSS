@@ -90,3 +90,81 @@ textarea:focus {
   border-bottom: 2px solid var(--royal-blue);
   outline: none;
 }
+
+
+/* Tablet view (768px to 1024px) */
+@media only screen and (max-width: 1024px) {
+  main {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 150px;
+  }
+
+  .info-card {
+    width: 90%;
+    padding: 3rem;
+  }
+
+  .button1 {
+    margin-top: 30px;
+    padding: 8px 30px;
+  }
+}
+
+/* Mobile view (up to 767px) */
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+  }
+
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+  }
+
+  .info-card {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .form-input {
+    padding: 8px;
+  }
+
+  .button1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .social-media-icons2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgContainer2 {
+    margin: 0 10px;
+  }
+}
+Key Adjustments:
