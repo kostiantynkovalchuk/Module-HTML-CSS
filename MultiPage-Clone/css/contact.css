@@ -91,7 +91,6 @@ textarea:focus {
   outline: none;
 }
 
-
 /* Tablet view (768px to 1024px) */
 @media only screen and (max-width: 1024px) {
   main {
@@ -167,4 +166,3 @@ textarea:focus {
     margin: 0 10px;
   }
 }
-Key Adjustments:
